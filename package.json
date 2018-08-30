@@ -16,18 +16,18 @@
   },
   "author": "Tetsuya Mori",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:umm/cafu_core"
-  },
+  "repository": "git@github.com:umm/cafu_core",
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm/scripts#^1.0.0",
-    "@umm/unirx": "umm/unirx#^2.0.0",
-    "@umm/unirx_observablelifecyclemonobehaviour": "umm/unirx_observablelifecyclemonobehaviour#^1.0.0"
+    "@umm/cafu_generator": "umm/cafu_generator",
+    "@umm/cafu_generics": "umm/cafu_generics",
+    "@umm/scripts": "umm/scripts",
+    "@umm/unirx": "umm/unirx",
+    "@umm/unirx_observablelifecyclemonobehaviour": "umm/unirx_observablelifecyclemonobehaviour"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js"
 }

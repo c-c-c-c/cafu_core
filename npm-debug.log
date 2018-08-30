@@ -1,0 +1,666 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchOtherPackageData @umm/cafu_generator@github:umm/cafu_generator
+20 silly cache add args [ '@umm/cafu_generator@github:umm/cafu_generator', null ]
+21 verbose cache add spec @umm/cafu_generator@github:umm/cafu_generator
+22 silly fetchOtherPackageData @umm/cafu_generics@github:umm/cafu_generics
+23 silly cache add args [ '@umm/cafu_generics@github:umm/cafu_generics', null ]
+24 verbose cache add spec @umm/cafu_generics@github:umm/cafu_generics
+25 silly fetchOtherPackageData @umm/scripts@github:umm/scripts
+26 silly cache add args [ '@umm/scripts@github:umm/scripts', null ]
+27 verbose cache add spec @umm/scripts@github:umm/scripts
+28 silly fetchOtherPackageData @umm/unirx@github:umm/unirx
+29 silly cache add args [ '@umm/unirx@github:umm/unirx', null ]
+30 verbose cache add spec @umm/unirx@github:umm/unirx
+31 silly fetchOtherPackageData @umm/unirx_observablelifecyclemonobehaviour@github:umm/unirx_observablelifecyclemonobehaviour
+32 silly cache add args [ '@umm/unirx_observablelifecyclemonobehaviour@github:umm/unirx_observablelifecyclemonobehaviour',
+32 silly cache add   null ]
+33 verbose cache add spec @umm/unirx_observablelifecyclemonobehaviour@github:umm/unirx_observablelifecyclemonobehaviour
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: '@umm/cafu_generator@github:umm/cafu_generator',
+34 silly cache add   scope: '@umm',
+34 silly cache add   name: '@umm/cafu_generator',
+34 silly cache add   rawSpec: 'github:umm/cafu_generator',
+34 silly cache add   spec: 'github:umm/cafu_generator',
+34 silly cache add   type: 'hosted',
+34 silly cache add   hosted:
+34 silly cache add    { type: 'github',
+34 silly cache add      ssh: 'git@github.com:umm/cafu_generator.git',
+34 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/cafu_generator.git',
+34 silly cache add      httpsUrl: 'git+https://github.com/umm/cafu_generator.git',
+34 silly cache add      gitUrl: 'git://github.com/umm/cafu_generator.git',
+34 silly cache add      shortcut: 'github:umm/cafu_generator',
+34 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/cafu_generator/master/package.json' } }
+35 verbose addRemoteGit caching github:umm/cafu_generator
+36 verbose addRemoteGit umm/cafu_generator is a repository hosted by github
+37 silly tryGitProto attempting to clone git://github.com/umm/cafu_generator.git
+38 silly tryClone cloning umm/cafu_generator via git://github.com/umm/cafu_generator.git
+39 verbose tryClone git-github-com-umm-cafu-generator-git-dd4341854f0384912b8aa1c9d4027a38 not in flight; caching
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: '@umm/cafu_generics@github:umm/cafu_generics',
+40 silly cache add   scope: '@umm',
+40 silly cache add   name: '@umm/cafu_generics',
+40 silly cache add   rawSpec: 'github:umm/cafu_generics',
+40 silly cache add   spec: 'github:umm/cafu_generics',
+40 silly cache add   type: 'hosted',
+40 silly cache add   hosted:
+40 silly cache add    { type: 'github',
+40 silly cache add      ssh: 'git@github.com:umm/cafu_generics.git',
+40 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/cafu_generics.git',
+40 silly cache add      httpsUrl: 'git+https://github.com/umm/cafu_generics.git',
+40 silly cache add      gitUrl: 'git://github.com/umm/cafu_generics.git',
+40 silly cache add      shortcut: 'github:umm/cafu_generics',
+40 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/cafu_generics/master/package.json' } }
+41 verbose addRemoteGit caching github:umm/cafu_generics
+42 verbose addRemoteGit umm/cafu_generics is a repository hosted by github
+43 silly tryGitProto attempting to clone git://github.com/umm/cafu_generics.git
+44 silly tryClone cloning umm/cafu_generics via git://github.com/umm/cafu_generics.git
+45 verbose tryClone git-github-com-umm-cafu-generics-git-67d58a51fcd86fb974fdaab45ff1d219 not in flight; caching
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: '@umm/scripts@github:umm/scripts',
+46 silly cache add   scope: '@umm',
+46 silly cache add   name: '@umm/scripts',
+46 silly cache add   rawSpec: 'github:umm/scripts',
+46 silly cache add   spec: 'github:umm/scripts',
+46 silly cache add   type: 'hosted',
+46 silly cache add   hosted:
+46 silly cache add    { type: 'github',
+46 silly cache add      ssh: 'git@github.com:umm/scripts.git',
+46 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/scripts.git',
+46 silly cache add      httpsUrl: 'git+https://github.com/umm/scripts.git',
+46 silly cache add      gitUrl: 'git://github.com/umm/scripts.git',
+46 silly cache add      shortcut: 'github:umm/scripts',
+46 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/scripts/master/package.json' } }
+47 verbose addRemoteGit caching github:umm/scripts
+48 verbose addRemoteGit umm/scripts is a repository hosted by github
+49 silly tryGitProto attempting to clone git://github.com/umm/scripts.git
+50 silly tryClone cloning umm/scripts via git://github.com/umm/scripts.git
+51 verbose tryClone git-github-com-umm-scripts-git-dc7292296636106a75733dbcc5a2c4f4 not in flight; caching
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: '@umm/unirx@github:umm/unirx',
+52 silly cache add   scope: '@umm',
+52 silly cache add   name: '@umm/unirx',
+52 silly cache add   rawSpec: 'github:umm/unirx',
+52 silly cache add   spec: 'github:umm/unirx',
+52 silly cache add   type: 'hosted',
+52 silly cache add   hosted:
+52 silly cache add    { type: 'github',
+52 silly cache add      ssh: 'git@github.com:umm/unirx.git',
+52 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/unirx.git',
+52 silly cache add      httpsUrl: 'git+https://github.com/umm/unirx.git',
+52 silly cache add      gitUrl: 'git://github.com/umm/unirx.git',
+52 silly cache add      shortcut: 'github:umm/unirx',
+52 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/unirx/master/package.json' } }
+53 verbose addRemoteGit caching github:umm/unirx
+54 verbose addRemoteGit umm/unirx is a repository hosted by github
+55 silly tryGitProto attempting to clone git://github.com/umm/unirx.git
+56 silly tryClone cloning umm/unirx via git://github.com/umm/unirx.git
+57 verbose tryClone git-github-com-umm-unirx-git-48b4a6c157dbcb0c99177e6b742951eb not in flight; caching
+58 silly cache add parsed spec Result {
+58 silly cache add   raw: '@umm/unirx_observablelifecyclemonobehaviour@github:umm/unirx_observablelifecyclemonobehaviour',
+58 silly cache add   scope: '@umm',
+58 silly cache add   name: '@umm/unirx_observablelifecyclemonobehaviour',
+58 silly cache add   rawSpec: 'github:umm/unirx_observablelifecyclemonobehaviour',
+58 silly cache add   spec: 'github:umm/unirx_observablelifecyclemonobehaviour',
+58 silly cache add   type: 'hosted',
+58 silly cache add   hosted:
+58 silly cache add    { type: 'github',
+58 silly cache add      ssh: 'git@github.com:umm/unirx_observablelifecyclemonobehaviour.git',
+58 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/unirx_observablelifecyclemonobehaviour.git',
+58 silly cache add      httpsUrl: 'git+https://github.com/umm/unirx_observablelifecyclemonobehaviour.git',
+58 silly cache add      gitUrl: 'git://github.com/umm/unirx_observablelifecyclemonobehaviour.git',
+58 silly cache add      shortcut: 'github:umm/unirx_observablelifecyclemonobehaviour',
+58 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/unirx_observablelifecyclemonobehaviour/master/package.json' } }
+59 verbose addRemoteGit caching github:umm/unirx_observablelifecyclemonobehaviour
+60 verbose addRemoteGit umm/unirx_observablelifecyclemonobehaviour is a repository hosted by github
+61 silly tryGitProto attempting to clone git://github.com/umm/unirx_observablelifecyclemonobehaviour.git
+62 silly tryClone cloning umm/unirx_observablelifecyclemonobehaviour via git://github.com/umm/unirx_observablelifecyclemonobehaviour.git
+63 verbose tryClone git-github-com-umm-unirx-observablelifecyclemonobehaviour-git-b721b66a03533dae4d8cf3459a626c86 not in flight; caching
+64 info git [ 'config', '--get', 'remote.origin.url' ]
+65 info git [ 'config', '--get', 'remote.origin.url' ]
+66 info git [ 'config', '--get', 'remote.origin.url' ]
+67 info git [ 'config', '--get', 'remote.origin.url' ]
+68 info git [ 'config', '--get', 'remote.origin.url' ]
+69 silly validateExistingRemote umm/cafu_generics remote.origin.url: git://github.com/umm/cafu_generics.git
+70 verbose validateExistingRemote umm/cafu_generics is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-cafu-generics-git-67d58a51fcd86fb974fdaab45ff1d219
+71 silly validateExistingRemote umm/scripts remote.origin.url: git://github.com/umm/scripts.git
+72 verbose validateExistingRemote umm/scripts is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-dc7292296636106a75733dbcc5a2c4f4
+73 silly validateExistingRemote umm/unirx remote.origin.url: git://github.com/umm/unirx.git
+74 verbose validateExistingRemote umm/unirx is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-unirx-git-48b4a6c157dbcb0c99177e6b742951eb
+75 silly validateExistingRemote umm/cafu_generator remote.origin.url: git://github.com/umm/cafu_generator.git
+76 verbose validateExistingRemote umm/cafu_generator is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-cafu-generator-git-dd4341854f0384912b8aa1c9d4027a38
+77 silly validateExistingRemote umm/unirx_observablelifecyclemonobehaviour remote.origin.url: git://github.com/umm/unirx_observablelifecyclemonobehaviour.git
+78 verbose validateExistingRemote umm/unirx_observablelifecyclemonobehaviour is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-unirx-observablelifecyclemonobehaviour-git-b721b66a03533dae4d8cf3459a626c86
+79 info git [ 'fetch', '-a', 'origin' ]
+80 info git [ 'fetch', '-a', 'origin' ]
+81 info git [ 'fetch', '-a', 'origin' ]
+82 info git [ 'fetch', '-a', 'origin' ]
+83 info git [ 'fetch', '-a', 'origin' ]
+84 verbose updateRemote git fetch -a origin (git://github.com/umm/cafu_generator.git)
+85 verbose setPermissions umm/cafu_generator skipping chownr on Windows
+86 verbose resolveHead umm/cafu_generator original treeish: master
+87 verbose updateRemote git fetch -a origin (git://github.com/umm/unirx.git)
+88 verbose setPermissions umm/unirx skipping chownr on Windows
+89 verbose resolveHead umm/unirx original treeish: master
+90 info git [ 'rev-list', '-n1', 'master' ]
+91 verbose updateRemote git fetch -a origin (git://github.com/umm/scripts.git)
+92 verbose setPermissions umm/scripts skipping chownr on Windows
+93 verbose resolveHead umm/scripts original treeish: master
+94 verbose updateRemote git fetch -a origin (git://github.com/umm/cafu_generics.git)
+95 verbose setPermissions umm/cafu_generics skipping chownr on Windows
+96 verbose resolveHead umm/cafu_generics original treeish: master
+97 info git [ 'rev-list', '-n1', 'master' ]
+98 info git [ 'rev-list', '-n1', 'master' ]
+99 info git [ 'rev-list', '-n1', 'master' ]
+100 silly resolveHead umm/cafu_generator resolved treeish: 21266577c39b1dcd955deec45440f9446619ac2a
+101 verbose resolveHead umm/cafu_generator resolved Git URL: git://github.com/umm/cafu_generator.git#21266577c39b1dcd955deec45440f9446619ac2a
+102 silly resolveHead Git working directory: C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-aa9356b6fd6c98b120cbebfcb966d23b\21266577c39b1dcd955deec45440f9446619ac2a
+103 silly resolveHead umm/unirx resolved treeish: 06b8c930847ea4c86c0f7c2409d5bfc4a8409e45
+104 verbose resolveHead umm/unirx resolved Git URL: git://github.com/umm/unirx.git#06b8c930847ea4c86c0f7c2409d5bfc4a8409e45
+105 silly resolveHead Git working directory: C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-a822009082a524c96e1fa67f10389b2e\06b8c930847ea4c86c0f7c2409d5bfc4a8409e45
+106 silly resolveHead umm/scripts resolved treeish: c6435e561bf97390a6bfdab5f38019c7200644ad
+107 verbose resolveHead umm/scripts resolved Git URL: git://github.com/umm/scripts.git#c6435e561bf97390a6bfdab5f38019c7200644ad
+108 silly resolveHead Git working directory: C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-b6c99a9c72cf80960bd540424509e7a6\c6435e561bf97390a6bfdab5f38019c7200644ad
+109 info git [ 'clone',
+109 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-cafu-generator-git-dd4341854f0384912b8aa1c9d4027a38',
+109 info git   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-aa9356b6fd6c98b120cbebfcb966d23b\\21266577c39b1dcd955deec45440f9446619ac2a' ]
+110 silly resolveHead umm/cafu_generics resolved treeish: 6efc95a61f9bdda53ddbfd8151b51c6b527ad382
+111 verbose resolveHead umm/cafu_generics resolved Git URL: git://github.com/umm/cafu_generics.git#6efc95a61f9bdda53ddbfd8151b51c6b527ad382
+112 silly resolveHead Git working directory: C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-9045401daa14c560c7b89c3069d99b9e\6efc95a61f9bdda53ddbfd8151b51c6b527ad382
+113 info git [ 'clone',
+113 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-unirx-git-48b4a6c157dbcb0c99177e6b742951eb',
+113 info git   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-a822009082a524c96e1fa67f10389b2e\\06b8c930847ea4c86c0f7c2409d5bfc4a8409e45' ]
+114 info git [ 'clone',
+114 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-scripts-git-dc7292296636106a75733dbcc5a2c4f4',
+114 info git   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-b6c99a9c72cf80960bd540424509e7a6\\c6435e561bf97390a6bfdab5f38019c7200644ad' ]
+115 info git [ 'clone',
+115 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-cafu-generics-git-67d58a51fcd86fb974fdaab45ff1d219',
+115 info git   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-9045401daa14c560c7b89c3069d99b9e\\6efc95a61f9bdda53ddbfd8151b51c6b527ad382' ]
+116 verbose updateRemote git fetch -a origin (git://github.com/umm/unirx_observablelifecyclemonobehaviour.git)
+117 verbose setPermissions umm/unirx_observablelifecyclemonobehaviour skipping chownr on Windows
+118 verbose resolveHead umm/unirx_observablelifecyclemonobehaviour original treeish: master
+119 info git [ 'rev-list', '-n1', 'master' ]
+120 silly resolveHead umm/unirx_observablelifecyclemonobehaviour resolved treeish: 609d94fe31f081a7045014ca95d0c248cc925621
+121 verbose resolveHead umm/unirx_observablelifecyclemonobehaviour resolved Git URL: git://github.com/umm/unirx_observablelifecyclemonobehaviour.git#609d94fe31f081a7045014ca95d0c248cc925621
+122 silly resolveHead Git working directory: C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-80a46d71f451ea252a83dfa88a9d1bb3\609d94fe31f081a7045014ca95d0c248cc925621
+123 info git [ 'clone',
+123 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-unirx-observablelifecyclemonobehaviour-git-b721b66a03533dae4d8cf3459a626c86',
+123 info git   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-80a46d71f451ea252a83dfa88a9d1bb3\\609d94fe31f081a7045014ca95d0c248cc925621' ]
+124 verbose cloneResolved umm/scripts clone Cloning into 'C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-b6c99a9c72cf80960bd540424509e7a6\c6435e561bf97390a6bfdab5f38019c7200644ad'...
+124 verbose cloneResolved done.
+125 info git [ 'checkout', 'c6435e561bf97390a6bfdab5f38019c7200644ad' ]
+126 verbose cloneResolved umm/cafu_generator clone Cloning into 'C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-aa9356b6fd6c98b120cbebfcb966d23b\21266577c39b1dcd955deec45440f9446619ac2a'...
+126 verbose cloneResolved done.
+127 verbose cloneResolved umm/cafu_generics clone Cloning into 'C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-9045401daa14c560c7b89c3069d99b9e\6efc95a61f9bdda53ddbfd8151b51c6b527ad382'...
+127 verbose cloneResolved done.
+128 info git [ 'checkout', '21266577c39b1dcd955deec45440f9446619ac2a' ]
+129 info git [ 'checkout', '6efc95a61f9bdda53ddbfd8151b51c6b527ad382' ]
+130 verbose checkoutTreeish umm/scripts checkout Note: checking out 'c6435e561bf97390a6bfdab5f38019c7200644ad'.
+130 verbose checkoutTreeish
+130 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+130 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+130 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+130 verbose checkoutTreeish
+130 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+130 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+130 verbose checkoutTreeish
+130 verbose checkoutTreeish   git checkout -b <new-branch-name>
+130 verbose checkoutTreeish
+130 verbose checkoutTreeish HEAD is now at c6435e5 1.3.8
+131 verbose addLocalDirectory C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\scripts\1.3.8\package.tgz not in flight; packing
+132 verbose tar pack [ 'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\@umm\\scripts\\1.3.8\\package.tgz',
+132 verbose tar pack   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-b6c99a9c72cf80960bd540424509e7a6\\c6435e561bf97390a6bfdab5f38019c7200644ad' ]
+133 verbose tarball C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\scripts\1.3.8\package.tgz
+134 verbose folder C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-b6c99a9c72cf80960bd540424509e7a6\c6435e561bf97390a6bfdab5f38019c7200644ad
+135 verbose cloneResolved umm/unirx_observablelifecyclemonobehaviour clone Cloning into 'C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-80a46d71f451ea252a83dfa88a9d1bb3\609d94fe31f081a7045014ca95d0c248cc925621'...
+135 verbose cloneResolved done.
+136 verbose checkoutTreeish umm/cafu_generics checkout Note: checking out '6efc95a61f9bdda53ddbfd8151b51c6b527ad382'.
+136 verbose checkoutTreeish
+136 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+136 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+136 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+136 verbose checkoutTreeish
+136 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+136 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+136 verbose checkoutTreeish
+136 verbose checkoutTreeish   git checkout -b <new-branch-name>
+136 verbose checkoutTreeish
+136 verbose checkoutTreeish HEAD is now at 6efc95a 1.7.3
+137 verbose checkoutTreeish umm/cafu_generator checkout Note: checking out '21266577c39b1dcd955deec45440f9446619ac2a'.
+137 verbose checkoutTreeish
+137 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+137 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+137 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+137 verbose checkoutTreeish
+137 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+137 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+137 verbose checkoutTreeish
+137 verbose checkoutTreeish   git checkout -b <new-branch-name>
+137 verbose checkoutTreeish
+137 verbose checkoutTreeish HEAD is now at 2126657 1.1.6
+138 verbose addLocalDirectory C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generics\1.7.3\package.tgz not in flight; packing
+139 verbose addLocalDirectory C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generator\1.1.6\package.tgz not in flight; packing
+140 verbose tar pack [ 'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\@umm\\cafu_generics\\1.7.3\\package.tgz',
+140 verbose tar pack   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-9045401daa14c560c7b89c3069d99b9e\\6efc95a61f9bdda53ddbfd8151b51c6b527ad382' ]
+141 verbose tarball C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generics\1.7.3\package.tgz
+142 verbose folder C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-9045401daa14c560c7b89c3069d99b9e\6efc95a61f9bdda53ddbfd8151b51c6b527ad382
+143 verbose tar pack [ 'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\@umm\\cafu_generator\\1.1.6\\package.tgz',
+143 verbose tar pack   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-aa9356b6fd6c98b120cbebfcb966d23b\\21266577c39b1dcd955deec45440f9446619ac2a' ]
+144 verbose tarball C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generator\1.1.6\package.tgz
+145 verbose folder C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-aa9356b6fd6c98b120cbebfcb966d23b\21266577c39b1dcd955deec45440f9446619ac2a
+146 verbose addLocalTarball adding from inside cache C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\scripts\1.3.8\package.tgz
+147 verbose addRemoteGit data._from: umm/scripts
+148 verbose addRemoteGit data._resolved: git://github.com/umm/scripts.git#c6435e561bf97390a6bfdab5f38019c7200644ad
+149 silly cache afterAdd @umm/scripts@1.3.8
+150 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\scripts\1.3.8\package\package.json not in flight; writing
+151 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\scripts\1.3.8\package\package.json written
+152 silly resolveWithNewModule @umm/scripts@1.3.8 checking installable status
+153 info git [ 'checkout', '609d94fe31f081a7045014ca95d0c248cc925621' ]
+154 verbose cloneResolved umm/unirx clone Cloning into 'C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-a822009082a524c96e1fa67f10389b2e\06b8c930847ea4c86c0f7c2409d5bfc4a8409e45'...
+154 verbose cloneResolved done.
+155 verbose checkoutTreeish umm/unirx_observablelifecyclemonobehaviour checkout Note: checking out '609d94fe31f081a7045014ca95d0c248cc925621'.
+155 verbose checkoutTreeish
+155 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+155 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+155 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+155 verbose checkoutTreeish
+155 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+155 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+155 verbose checkoutTreeish
+155 verbose checkoutTreeish   git checkout -b <new-branch-name>
+155 verbose checkoutTreeish
+155 verbose checkoutTreeish HEAD is now at 609d94f 1.2.2
+156 verbose addLocalDirectory C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx_observablelifecyclemonobehaviour\1.2.2\package.tgz not in flight; packing
+157 verbose tar pack [ 'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\@umm\\unirx_observablelifecyclemonobehaviour\\1.2.2\\package.tgz',
+157 verbose tar pack   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-80a46d71f451ea252a83dfa88a9d1bb3\\609d94fe31f081a7045014ca95d0c248cc925621' ]
+158 verbose tarball C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx_observablelifecyclemonobehaviour\1.2.2\package.tgz
+159 verbose folder C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-80a46d71f451ea252a83dfa88a9d1bb3\609d94fe31f081a7045014ca95d0c248cc925621
+160 verbose addLocalTarball adding from inside cache C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generics\1.7.3\package.tgz
+161 verbose addRemoteGit data._from: umm/cafu_generics
+162 verbose addRemoteGit data._resolved: git://github.com/umm/cafu_generics.git#6efc95a61f9bdda53ddbfd8151b51c6b527ad382
+163 silly cache afterAdd @umm/cafu_generics@1.7.3
+164 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generics\1.7.3\package\package.json not in flight; writing
+165 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generics\1.7.3\package\package.json written
+166 silly resolveWithNewModule @umm/cafu_generics@1.7.3 checking installable status
+167 verbose addLocalTarball adding from inside cache C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx_observablelifecyclemonobehaviour\1.2.2\package.tgz
+168 verbose addRemoteGit data._from: umm/unirx_observablelifecyclemonobehaviour
+169 verbose addRemoteGit data._resolved: git://github.com/umm/unirx_observablelifecyclemonobehaviour.git#609d94fe31f081a7045014ca95d0c248cc925621
+170 info git [ 'checkout', '06b8c930847ea4c86c0f7c2409d5bfc4a8409e45' ]
+171 silly cache afterAdd @umm/unirx_observablelifecyclemonobehaviour@1.2.2
+172 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx_observablelifecyclemonobehaviour\1.2.2\package\package.json not in flight; writing
+173 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx_observablelifecyclemonobehaviour\1.2.2\package\package.json written
+174 silly resolveWithNewModule @umm/unirx_observablelifecyclemonobehaviour@1.2.2 checking installable status
+175 verbose addLocalTarball adding from inside cache C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generator\1.1.6\package.tgz
+176 verbose addRemoteGit data._from: umm/cafu_generator
+177 verbose addRemoteGit data._resolved: git://github.com/umm/cafu_generator.git#21266577c39b1dcd955deec45440f9446619ac2a
+178 silly cache afterAdd @umm/cafu_generator@1.1.6
+179 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generator\1.1.6\package\package.json not in flight; writing
+180 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\cafu_generator\1.1.6\package\package.json written
+181 silly resolveWithNewModule @umm/cafu_generator@1.1.6 checking installable status
+182 verbose checkoutTreeish umm/unirx checkout Note: checking out '06b8c930847ea4c86c0f7c2409d5bfc4a8409e45'.
+182 verbose checkoutTreeish
+182 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+182 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+182 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+182 verbose checkoutTreeish
+182 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+182 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+182 verbose checkoutTreeish
+182 verbose checkoutTreeish   git checkout -b <new-branch-name>
+182 verbose checkoutTreeish
+182 verbose checkoutTreeish HEAD is now at 06b8c93 2.1.2
+183 verbose addLocalDirectory C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx\2.1.2\package.tgz not in flight; packing
+184 verbose tar pack [ 'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\@umm\\unirx\\2.1.2\\package.tgz',
+184 verbose tar pack   'C:\\Users\\4cmur\\AppData\\Local\\Temp\\npm-15164-530f2dd8\\git-cache-a822009082a524c96e1fa67f10389b2e\\06b8c930847ea4c86c0f7c2409d5bfc4a8409e45' ]
+185 verbose tarball C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx\2.1.2\package.tgz
+186 verbose folder C:\Users\4cmur\AppData\Local\Temp\npm-15164-530f2dd8\git-cache-a822009082a524c96e1fa67f10389b2e\06b8c930847ea4c86c0f7c2409d5bfc4a8409e45
+187 verbose addLocalTarball adding from inside cache C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx\2.1.2\package.tgz
+188 verbose addRemoteGit data._from: umm/unirx
+189 verbose addRemoteGit data._resolved: git://github.com/umm/unirx.git#06b8c930847ea4c86c0f7c2409d5bfc4a8409e45
+190 silly cache afterAdd @umm/unirx@2.1.2
+191 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx\2.1.2\package\package.json not in flight; writing
+192 verbose afterAdd C:\Users\4cmur\AppData\Roaming\npm-cache\@umm\unirx\2.1.2\package\package.json written
+193 silly resolveWithNewModule @umm/unirx@2.1.2 checking installable status
+194 silly fetchOtherPackageData @umm/context_management@github:umm/context_management#^1.0.0
+195 silly cache add args [ '@umm/context_management@github:umm/context_management#^1.0.0',
+195 silly cache add   null ]
+196 verbose cache add spec @umm/context_management@github:umm/context_management#^1.0.0
+197 silly fetchOtherPackageData @umm/extra_linq@github:umm/extra_linq#^1.0.0
+198 silly cache add args [ '@umm/extra_linq@github:umm/extra_linq#^1.0.0', null ]
+199 verbose cache add spec @umm/extra_linq@github:umm/extra_linq#^1.0.0
+200 silly fetchOtherPackageData @umm/scripts@github:umm/scripts#^1.0.0
+201 silly cache add args [ '@umm/scripts@github:umm/scripts#^1.0.0', null ]
+202 verbose cache add spec @umm/scripts@github:umm/scripts#^1.0.0
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: '@umm/context_management@github:umm/context_management#^1.0.0',
+203 silly cache add   scope: '@umm',
+203 silly cache add   name: '@umm/context_management',
+203 silly cache add   rawSpec: 'github:umm/context_management#^1.0.0',
+203 silly cache add   spec: 'github:umm/context_management#^1.0.0',
+203 silly cache add   type: 'hosted',
+203 silly cache add   hosted:
+203 silly cache add    { type: 'github',
+203 silly cache add      ssh: 'git@github.com:umm/context_management.git#^1.0.0',
+203 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/context_management.git#^1.0.0',
+203 silly cache add      httpsUrl: 'git+https://github.com/umm/context_management.git#^1.0.0',
+203 silly cache add      gitUrl: 'git://github.com/umm/context_management.git#^1.0.0',
+203 silly cache add      shortcut: 'github:umm/context_management#^1.0.0',
+203 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/context_management/%5E1.0.0/package.json' } }
+204 verbose addRemoteGit caching github:umm/context_management#^1.0.0
+205 verbose addRemoteGit umm/context_management#^1.0.0 is a repository hosted by github
+206 silly tryGitProto attempting to clone git://github.com/umm/context_management.git#^1.0.0
+207 silly tryClone cloning umm/context_management#^1.0.0 via git://github.com/umm/context_management.git#^1.0.0
+208 verbose tryClone git-github-com-umm-context-management-git-1-0-0-e3e156dd073c14965a485dedd62ca671 not in flight; caching
+209 silly cache add parsed spec Result {
+209 silly cache add   raw: '@umm/extra_linq@github:umm/extra_linq#^1.0.0',
+209 silly cache add   scope: '@umm',
+209 silly cache add   name: '@umm/extra_linq',
+209 silly cache add   rawSpec: 'github:umm/extra_linq#^1.0.0',
+209 silly cache add   spec: 'github:umm/extra_linq#^1.0.0',
+209 silly cache add   type: 'hosted',
+209 silly cache add   hosted:
+209 silly cache add    { type: 'github',
+209 silly cache add      ssh: 'git@github.com:umm/extra_linq.git#^1.0.0',
+209 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/extra_linq.git#^1.0.0',
+209 silly cache add      httpsUrl: 'git+https://github.com/umm/extra_linq.git#^1.0.0',
+209 silly cache add      gitUrl: 'git://github.com/umm/extra_linq.git#^1.0.0',
+209 silly cache add      shortcut: 'github:umm/extra_linq#^1.0.0',
+209 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/extra_linq/%5E1.0.0/package.json' } }
+210 verbose addRemoteGit caching github:umm/extra_linq#^1.0.0
+211 verbose addRemoteGit umm/extra_linq#^1.0.0 is a repository hosted by github
+212 silly tryGitProto attempting to clone git://github.com/umm/extra_linq.git#^1.0.0
+213 silly tryClone cloning umm/extra_linq#^1.0.0 via git://github.com/umm/extra_linq.git#^1.0.0
+214 verbose tryClone git-github-com-umm-extra-linq-git-1-0-0-6a3a570625643e0375ad9cd08122d9d0 not in flight; caching
+215 silly cache add parsed spec Result {
+215 silly cache add   raw: '@umm/scripts@github:umm/scripts#^1.0.0',
+215 silly cache add   scope: '@umm',
+215 silly cache add   name: '@umm/scripts',
+215 silly cache add   rawSpec: 'github:umm/scripts#^1.0.0',
+215 silly cache add   spec: 'github:umm/scripts#^1.0.0',
+215 silly cache add   type: 'hosted',
+215 silly cache add   hosted:
+215 silly cache add    { type: 'github',
+215 silly cache add      ssh: 'git@github.com:umm/scripts.git#^1.0.0',
+215 silly cache add      sshUrl: 'git+ssh://git@github.com/umm/scripts.git#^1.0.0',
+215 silly cache add      httpsUrl: 'git+https://github.com/umm/scripts.git#^1.0.0',
+215 silly cache add      gitUrl: 'git://github.com/umm/scripts.git#^1.0.0',
+215 silly cache add      shortcut: 'github:umm/scripts#^1.0.0',
+215 silly cache add      directUrl: 'https://raw.githubusercontent.com/umm/scripts/%5E1.0.0/package.json' } }
+216 verbose addRemoteGit caching github:umm/scripts#^1.0.0
+217 verbose addRemoteGit umm/scripts#^1.0.0 is a repository hosted by github
+218 silly tryGitProto attempting to clone git://github.com/umm/scripts.git#^1.0.0
+219 silly tryClone cloning umm/scripts#^1.0.0 via git://github.com/umm/scripts.git#^1.0.0
+220 verbose tryClone git-github-com-umm-scripts-git-1-0-0-dc7292296636106a75733dbcc5a2c4f4 not in flight; caching
+221 info git [ 'config', '--get', 'remote.origin.url' ]
+222 info git [ 'clone',
+222 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+222 info git   '--mirror',
+222 info git   'git://github.com/umm/extra_linq.git',
+222 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-extra-linq-git-1-0-0-6a3a570625643e0375ad9cd08122d9d0' ]
+223 info git [ 'clone',
+223 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+223 info git   '--mirror',
+223 info git   'git://github.com/umm/context_management.git',
+223 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-context-management-git-1-0-0-e3e156dd073c14965a485dedd62ca671' ]
+224 silly validateExistingRemote umm/scripts#^1.0.0 remote.origin.url: git://github.com/umm/scripts.git
+225 verbose validateExistingRemote umm/scripts#^1.0.0 is updating existing cached remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-dc7292296636106a75733dbcc5a2c4f4
+226 info git [ 'fetch', '-a', 'origin' ]
+227 verbose updateRemote git fetch -a origin (git://github.com/umm/scripts.git)
+228 verbose setPermissions umm/scripts#^1.0.0 skipping chownr on Windows
+229 verbose resolveHead umm/scripts#^1.0.0 original treeish: %5E1.0.0
+230 info git [ 'rev-list', '-n1', '%5E1.0.0' ]
+231 error git rev-list -n1 %5E1.0.0: fatal: ambiguous argument '%5E1.0.0': unknown revision or path not in the working tree.
+231 error git rev-list -n1 %5E1.0.0: Use '--' to separate paths from revisions, like this:
+231 error git rev-list -n1 %5E1.0.0: 'git <command> [<revision>...] -- [<file>...]'
+232 silly tryHTTPS attempting to clone git+https://github.com/umm/scripts.git#^1.0.0
+233 silly tryClone cloning umm/scripts#^1.0.0 via git+https://github.com/umm/scripts.git#^1.0.0
+234 verbose tryClone git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084 not in flight; caching
+235 info git [ 'config', '--get', 'remote.origin.url' ]
+236 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+236 warn addRemoteGit
+236 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+236 warn addRemoteGit     at emitTwo (events.js:87:13)
+236 warn addRemoteGit     at ChildProcess.emit (events.js:172:7)
+236 warn addRemoteGit     at maybeClose (internal/child_process.js:821:16)
+236 warn addRemoteGit     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+236 warn addRemoteGit  umm/scripts#^1.0.0 resetting remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084 because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+236 warn addRemoteGit ]
+236 warn addRemoteGit   killed: false,
+236 warn addRemoteGit   code: 1,
+236 warn addRemoteGit   signal: null,
+236 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+237 info resetRemote resetting C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084 for umm/scripts#^1.0.0
+238 silly gentlyRm C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084 is being purged
+239 verbose gentlyRm don't care about contents; nuking C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084
+240 silly vacuum-fs purging C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084
+241 silly vacuum-fs quitting because other entries in C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes
+242 info git [ 'clone',
+242 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+242 info git   '--mirror',
+242 info git   'git+https://github.com/umm/scripts.git',
+242 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084' ]
+243 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084'...
+243 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-scripts-git-1-0-0-541152cb97d093950915637d1681a084: git: 'remote-git+https' is not a git command. See 'git --help'.
+244 silly trySSH attempting to clone git@github.com:umm/scripts.git#^1.0.0
+245 silly tryClone cloning umm/scripts#^1.0.0 via git@github.com:umm/scripts.git#^1.0.0
+246 verbose tryClone git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341 not in flight; caching
+247 info git [ 'config', '--get', 'remote.origin.url' ]
+248 verbose mirrorRemote umm/extra_linq#^1.0.0 git clone git://github.com/umm/extra_linq.git
+249 verbose setPermissions umm/extra_linq#^1.0.0 skipping chownr on Windows
+250 verbose resolveHead umm/extra_linq#^1.0.0 original treeish: %5E1.0.0
+251 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+251 warn addRemoteGit
+251 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+251 warn addRemoteGit     at emitTwo (events.js:87:13)
+251 warn addRemoteGit     at ChildProcess.emit (events.js:172:7)
+251 warn addRemoteGit     at maybeClose (internal/child_process.js:821:16)
+251 warn addRemoteGit     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+251 warn addRemoteGit  umm/scripts#^1.0.0 resetting remote C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341 because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+251 warn addRemoteGit ]
+251 warn addRemoteGit   killed: false,
+251 warn addRemoteGit   code: 1,
+251 warn addRemoteGit   signal: null,
+251 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+252 info resetRemote resetting C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341 for umm/scripts#^1.0.0
+253 silly gentlyRm C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341 is being purged
+254 verbose mirrorRemote umm/context_management#^1.0.0 git clone git://github.com/umm/context_management.git
+255 verbose setPermissions umm/context_management#^1.0.0 skipping chownr on Windows
+256 verbose resolveHead umm/context_management#^1.0.0 original treeish: %5E1.0.0
+257 verbose gentlyRm don't care about contents; nuking C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341
+258 silly vacuum-fs purging C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341
+259 silly vacuum-fs quitting because other entries in C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes
+260 info git [ 'rev-list', '-n1', '%5E1.0.0' ]
+261 info git [ 'rev-list', '-n1', '%5E1.0.0' ]
+262 info git [ 'clone',
+262 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+262 info git   '--mirror',
+262 info git   'git@github.com:umm/scripts.git',
+262 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341' ]
+263 error git rev-list -n1 %5E1.0.0: fatal: ambiguous argument '%5E1.0.0': unknown revision or path not in the working tree.
+263 error git rev-list -n1 %5E1.0.0: Use '--' to separate paths from revisions, like this:
+263 error git rev-list -n1 %5E1.0.0: 'git <command> [<revision>...] -- [<file>...]'
+264 silly tryHTTPS attempting to clone git+https://github.com/umm/extra_linq.git#^1.0.0
+265 silly tryClone cloning umm/extra_linq#^1.0.0 via git+https://github.com/umm/extra_linq.git#^1.0.0
+266 verbose tryClone git-https-github-com-umm-extra-linq-git-1-0-0-da38810c4d547280b4fa39d595e7ee77 not in flight; caching
+267 info git [ 'clone',
+267 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+267 info git   '--mirror',
+267 info git   'git+https://github.com/umm/extra_linq.git',
+267 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-umm-extra-linq-git-1-0-0-da38810c4d547280b4fa39d595e7ee77' ]
+268 error git rev-list -n1 %5E1.0.0: fatal: ambiguous argument '%5E1.0.0': unknown revision or path not in the working tree.
+268 error git rev-list -n1 %5E1.0.0: Use '--' to separate paths from revisions, like this:
+268 error git rev-list -n1 %5E1.0.0: 'git <command> [<revision>...] -- [<file>...]'
+269 silly tryHTTPS attempting to clone git+https://github.com/umm/context_management.git#^1.0.0
+270 silly tryClone cloning umm/context_management#^1.0.0 via git+https://github.com/umm/context_management.git#^1.0.0
+271 verbose tryClone git-https-github-com-umm-context-management-git-1-0-0-a9a47546f756ea4440dcb0d7b3371478 not in flight; caching
+272 info git [ 'clone',
+272 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+272 info git   '--mirror',
+272 info git   'git+https://github.com/umm/context_management.git',
+272 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-umm-context-management-git-1-0-0-a9a47546f756ea4440dcb0d7b3371478' ]
+273 verbose git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-extra-linq-git-1-0-0-da38810c4d547280b4fa39d595e7ee77: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-extra-linq-git-1-0-0-da38810c4d547280b4fa39d595e7ee77'...
+273 verbose git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-extra-linq-git-1-0-0-da38810c4d547280b4fa39d595e7ee77: git: 'remote-git+https' is not a git command. See 'git --help'.
+274 silly trySSH attempting to clone git@github.com:umm/extra_linq.git#^1.0.0
+275 silly tryClone cloning umm/extra_linq#^1.0.0 via git@github.com:umm/extra_linq.git#^1.0.0
+276 verbose tryClone git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31 not in flight; caching
+277 info git [ 'clone',
+277 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+277 info git   '--mirror',
+277 info git   'git@github.com:umm/extra_linq.git',
+277 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31' ]
+278 verbose git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-context-management-git-1-0-0-a9a47546f756ea4440dcb0d7b3371478: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-context-management-git-1-0-0-a9a47546f756ea4440dcb0d7b3371478'...
+278 verbose git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git+https://github.com/umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-umm-context-management-git-1-0-0-a9a47546f756ea4440dcb0d7b3371478: git: 'remote-git+https' is not a git command. See 'git --help'.
+279 silly trySSH attempting to clone git@github.com:umm/context_management.git#^1.0.0
+280 silly tryClone cloning umm/context_management#^1.0.0 via git@github.com:umm/context_management.git#^1.0.0
+281 verbose tryClone git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9 not in flight; caching
+282 info git [ 'clone',
+282 info git   '--template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+282 info git   '--mirror',
+282 info git   'git@github.com:umm/context_management.git',
+282 info git   'C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9' ]
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31'...
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31: Host key verification failed.
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31: fatal: Could not read from remote repository.
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31:
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31: Please make sure you have the correct access rights
+283 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31: and the repository exists.
+284 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31
+284 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31'...
+284 silly fetchPackageMetaData Host key verification failed.
+284 silly fetchPackageMetaData fatal: Could not read from remote repository.
+284 silly fetchPackageMetaData
+284 silly fetchPackageMetaData Please make sure you have the correct access rights
+284 silly fetchPackageMetaData and the repository exists.
+284 silly fetchPackageMetaData
+284 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+284 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+284 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+284 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+284 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+284 silly fetchPackageMetaData  error for @umm/extra_linq@github:umm/extra_linq#^1.0.0 { [Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31
+284 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31'...
+284 silly fetchPackageMetaData Host key verification failed.
+284 silly fetchPackageMetaData fatal: Could not read from remote repository.
+284 silly fetchPackageMetaData
+284 silly fetchPackageMetaData Please make sure you have the correct access rights
+284 silly fetchPackageMetaData and the repository exists.
+284 silly fetchPackageMetaData ]
+284 silly fetchPackageMetaData   killed: false,
+284 silly fetchPackageMetaData   code: 128,
+284 silly fetchPackageMetaData   signal: null,
+284 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:umm/extra_linq.git C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31' }
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9'...
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9: Host key verification failed.
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9: fatal: Could not read from remote repository.
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9:
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9: Please make sure you have the correct access rights
+285 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9: and the repository exists.
+286 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9
+286 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9'...
+286 silly fetchPackageMetaData Host key verification failed.
+286 silly fetchPackageMetaData fatal: Could not read from remote repository.
+286 silly fetchPackageMetaData
+286 silly fetchPackageMetaData Please make sure you have the correct access rights
+286 silly fetchPackageMetaData and the repository exists.
+286 silly fetchPackageMetaData
+286 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+286 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+286 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+286 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+286 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+286 silly fetchPackageMetaData  error for @umm/context_management@github:umm/context_management#^1.0.0 { [Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/context_management.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9
+286 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9'...
+286 silly fetchPackageMetaData Host key verification failed.
+286 silly fetchPackageMetaData fatal: Could not read from remote repository.
+286 silly fetchPackageMetaData
+286 silly fetchPackageMetaData Please make sure you have the correct access rights
+286 silly fetchPackageMetaData and the repository exists.
+286 silly fetchPackageMetaData ]
+286 silly fetchPackageMetaData   killed: false,
+286 silly fetchPackageMetaData   code: 128,
+286 silly fetchPackageMetaData   signal: null,
+286 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:umm/context_management.git C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-context-management-git-1-0-0-6290f76b3a6bcc7daffa95c9729e8fe9' }
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341: Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341'...
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341: Host key verification failed.
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341: fatal: Could not read from remote repository.
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341:
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341: Please make sure you have the correct access rights
+287 error git clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341: and the repository exists.
+288 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341
+288 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341'...
+288 silly fetchPackageMetaData Host key verification failed.
+288 silly fetchPackageMetaData fatal: Could not read from remote repository.
+288 silly fetchPackageMetaData
+288 silly fetchPackageMetaData Please make sure you have the correct access rights
+288 silly fetchPackageMetaData and the repository exists.
+288 silly fetchPackageMetaData
+288 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+288 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+288 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+288 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+288 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+288 silly fetchPackageMetaData  error for @umm/scripts@github:umm/scripts#^1.0.0 { [Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/scripts.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341
+288 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341'...
+288 silly fetchPackageMetaData Host key verification failed.
+288 silly fetchPackageMetaData fatal: Could not read from remote repository.
+288 silly fetchPackageMetaData
+288 silly fetchPackageMetaData Please make sure you have the correct access rights
+288 silly fetchPackageMetaData and the repository exists.
+288 silly fetchPackageMetaData ]
+288 silly fetchPackageMetaData   killed: false,
+288 silly fetchPackageMetaData   code: 128,
+288 silly fetchPackageMetaData   signal: null,
+288 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:umm/scripts.git C:\\Users\\4cmur\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-umm-scripts-git-1-0-0-8539ae15b091018659769d60efecf341' }
+289 silly rollbackFailedOptional Starting
+290 silly rollbackFailedOptional Finishing
+291 silly runTopLevelLifecycles Starting
+292 silly runTopLevelLifecycles Finishing
+293 silly install printInstalled
+294 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31
+294 verbose stack Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31'...
+294 verbose stack Host key verification failed.
+294 verbose stack fatal: Could not read from remote repository.
+294 verbose stack
+294 verbose stack Please make sure you have the correct access rights
+294 verbose stack and the repository exists.
+294 verbose stack
+294 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+294 verbose stack     at emitTwo (events.js:87:13)
+294 verbose stack     at ChildProcess.emit (events.js:172:7)
+294 verbose stack     at maybeClose (internal/child_process.js:821:16)
+294 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+295 verbose cwd C:\Users\4cmur\workspace_unity\CafeHome
+296 error Windows_NT 10.0.17134
+297 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+298 error node v5.4.1
+299 error npm  v3.3.4
+300 error code 128
+301 error Command failed: git -c core.longpaths=true clone --template=C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:umm/extra_linq.git C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31
+301 error Cloning into bare repository 'C:\Users\4cmur\AppData\Roaming\npm-cache\_git-remotes\git-github-com-umm-extra-linq-git-1-0-0-5256d690248a1e7b674e40009b30eb31'...
+301 error Host key verification failed.
+301 error fatal: Could not read from remote repository.
+301 error
+301 error Please make sure you have the correct access rights
+301 error and the repository exists.
+302 error If you need help, you may report this error at:
+302 error     <https://github.com/npm/npm/issues>
+303 verbose exit [ 1, true ]
